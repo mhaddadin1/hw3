@@ -104,12 +104,12 @@ function generatePassword() {
   // assign a variable to the length of the password
   let pwLength = prompt("Choose a password length between 8 and 128.");
   // confirm user selected length 8 to 128
-  if (pwLength < 8 && pwLength > 128) {
+  if (pwLength < 8 || pwLength > 128) {
     alert(
       "Password length must be between 8 and 128. Please enter a correct number."
     );
-    prompt("Choose a password length between 8 and 128.");
   }
+
   // ask questions for arrays
   let pwUpper = confirm("Do you want uppercase letters?");
   if (pwUpper === true) {
@@ -129,12 +129,13 @@ function generatePassword() {
   }
 
   // loop through array of letters
-  for (let i = 0; i < pwLength; ++i) {
+  for (let i = 0; i < pwLength; i++) {
     password += chrs[Math.floor(Math.random() * chrs.length)];
   }
   // return password
   return password;
 }
+
 // Write password to the #password input
 function writePassword() {
   let password = generatePassword();
