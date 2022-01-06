@@ -24,5 +24,5 @@ Then the password is written to the page
 
 ![Generate password page.](./assets/images/generate password screenshot.png)
 
-Here is the repo:
-Here is the page:
+Here is the repo:[mhaddadin1/repo](https://github.com/mhaddadin1/hw3)
+Here is the page:[mhaddadin1/pages](https://mhaddadin1.github.io/hw3/)
