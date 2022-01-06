@@ -1,4 +1,9 @@
-03 JavaScript: Password Generator
+# hw3
+
+# 03 JavaScript: Password Generator
+
+# Description
+
 Below you will find links to my password generator application.
 
 When user clicks the button to generate a password
@@ -15,9 +20,9 @@ Then a password is generated that matches the selected criteria
 When the password is generated
 Then the password is written to the page
 
-screenshot
+## screenshot
 
-![The generate password homework screenshot] (./assets/C:\Users\mousa\code\hw3\assets\generate password screenshot.png)
+![Generate password page.](./assets/images/generate password screenshot.png)
 
 Here is the repo:
 Here is the page:
