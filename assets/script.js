@@ -102,12 +102,15 @@ function generatePassword() {
   let password = "";
 
   // assign a variable to the length of the password
-  let pwLength = prompt("Choose a password length between 8 and 128.");
+  let pwLength = parseInt(
+    prompt("Choose a password length between 8 and 128.")
+  );
   // confirm user selected length 8 to 128
   if (pwLength < 8 || pwLength > 128) {
     alert(
       "Password length must be between 8 and 128. Please enter a correct number."
     );
+    return null;
   }
 
   // ask questions for arrays
