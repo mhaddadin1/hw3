@@ -22,7 +22,8 @@ Then the password is written to the page
 
 ## screenshot
 
-![Generate password page.](./assets/images/generate password screenshot.png)
+![Generate password page](./assets/images/generate_password_screenshot.png)
 
 Here is the repo:[mhaddadin1/repo](https://github.com/mhaddadin1/hw3)
+
 Here is the page:[mhaddadin1/pages](https://mhaddadin1.github.io/hw3/)
